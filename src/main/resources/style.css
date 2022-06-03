@@ -1,0 +1,33 @@
+#pane{
+    -fx-background-image: url("bg.jpg");
+    -fx-background-repeat:stretch;
+     -fx-background-size: 1100 700;
+     -fx-background-position:center center;
+     -fx-text-align: center;
+}
+#gm{
+    -fx-font-smoothing-type:lcd;
+    -fx-font-size: 11pt;
+    -fx-font-family:"serif";
+    -fx-border-radius:25px;
+    -fx-border-width:5px;
+    -fx-border-color:linear-gradient(from 25% 25% to 100% 100%, grey,#000000);
+    -fx-background-origin: border-box;
+    -fx-background-clip: content-box,border-box;
+    -fx-padding-top:10px;
+    -fx-padding: 10px;
+
+}
+#gm1{
+    -fx-font-smoothing-type:lcd;
+    -fx-font-size: 11pt;
+    -fx-font-family:"serif";
+    -fx-border-radius:25px;
+    -fx-border-width:5px;
+    -fx-border-color:linear-gradient(from 25% 25% to 100% 100%, red, purple);
+    -fx-background-origin: border-box;
+    -fx-background-clip: content-box,border-box;
+    -fx-padding-top:10px;
+    -fx-padding: 10px;
+
+}
